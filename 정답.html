@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- google web font: lobster -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
+<body class="container" style="zoom: 0.9;">
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-white row py-4">
+        <!-- logo -->
+        <a class="navbar-brand col-2" href="/" style="font-family: 'Lobster', cursive; font-size: 2em;">Nextagram</a>
+        <%= link_to 'Nextagram', home_index_[path], class: "navbar-brand col-2 whole"%>
+        <!-- search -->
+        <form class="form-inline d-flex mx-auto justify-content-center">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" style="width: 20rem; text-align: center;">
+            </div>
+        </form>
+        <!-- compass / heart / man -->
+        <div class="col-2 d-flex justify-content-between">
+            <i class="fas fa-heart fa-lg"></i>
+            <i class="fas fa-compass fa-lg"></i>
+            <i class="fas fa-user fa-lg"></i>
+        </div>
+    </nav>
+
+    <!-- profile -->
+    <div class="row py-4 mb-3">
+        <!-- main pic -->
+        <div class="col-4 d-flex justify-content-center align-content-center">
+            <img src="https://loremflickr.com/150/150" style="border-radius: 50%;">
+        </div>
+        <!-- profile -->
+        <div class="col-8">
+            <!-- username -->
+            <h1 style="font-weight: 100;">mikaescapel</h1>
+            <!-- post / followers / following -->
+            <ul class="d-flex p-0" style="list-style-type: none;">
+                <li class="mr-4"> <span>12 posts</span> </li>
+                <li class="mr-4"> <span>360 followers</span> </li>
+                <li> <span>36 following</span> </li>+++yy
+            </ul>
+            <!-- name / introduction -->
+            <span>Bootstrap, Font-Awesome, Google Web Font를 적용한 HTML 페이지입니다.</span>
+        </div>
+    </div>
+
+    <!-- posts -->
+    <div>
+        <!-- two buttons -->
+        <div class="border-top d-flex justify-content-center align-content-center px-0 py-3 m-0">
+            <ulstyle="list-style-type: none;">
+                <li class="mx-4"> <span>POSTS</span> </li>
+                <li class="mx-4"> <span>SAVED</span> </li>
+            </ul>
+        </div>
+        <!-- 3 pics in row -->
+        <div>
+            <div class="d-flex justify-content-between mb-3">
+                <img src="https://loremflickr.com/360/360">
+                <img src="https://loremflickr.com/360/360">
+                <img src="https://loremflickr.com/360/360">
+            </div>
+           
+            <div class="d-flex justify-content-between mb-3">
+                <img src="https://loremflickr.com/360/360">
+                <img src="https://loremflickr.com/360/360">
+                <img src="https://loremflickr.com/360/360">
+            </div>
+           
+            <div class="d-flex justify-content-between mb-3">
+                <img src="https://loremflickr.com/360/360">
+                <img src="https://loremflickr.com/360/360">
+                <img src="https://loremflickr.com/360/360">
+            </div>
+           
+            <div class="d-flex justify-content-between mb-3">
+                <img src="https://loremflickr.com/360/360">
+                <img src="https://loremflickr.com/360/360">
+                <img src="https://loremflickr.com/360/360">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <div class="d-flex justify-content-between mt-5 py-4">
+        <ul class="d-flex px-0" style="list-style-type: none;">
+            <li class="mr-2">ABOUT US</li>
+            <li class="mr-2">SUPPORT</li>
+            <li class="mr-2">BLOG</li>
+            <li class="mr-2">PRESS</li>
+            <li class="mr-2">API</li>
+            <li class="mr-2">JOBS</li>
+            <li class="mr-2">PRIVACY</li>
+            <li class="mr-2">TERMS</li>
+            <li class="mr-2">DIRECTORY</li>
+            <li class="mr-2">PROFILES</li>
+            <li class="mr-2">HASHTAGS</li>
+            <li class="mr-2">LANGUAGE</li>
+        </ul>
+
+        <span>C) 2018 NEXTAGRAM</span>
+
+    </div>
+
+</body>
+</html>
